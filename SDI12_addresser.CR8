@@ -13,8 +13,8 @@
 Dim Count
 Dim Count_2
 
-Public OldAddress = 4
-Public NewAddress = 5
+Public OldAddress = 1
+Public NewAddress = 4
 Public SDI12(32,3)
 Public Res1(32)
 Public Res2(32)
@@ -260,7 +260,7 @@ BeginProg
     Count=1
     SubScan(0,uSec,32)
       'Switch to next AM16/32 Multiplexer channel
-      PulsePort(2,10000)
+      PulsePort(2,20000)
       'Enable power to Generic SDI-12 Sensor
       SW12(1)
       'Allow Generic SDI-12 Sensor to warmup before polling
@@ -286,7 +286,7 @@ BeginProg
     Count_2=1
     SubScan(0,uSec,32)
       'Switch to next AM16/32 Multiplexer channel
-      PulsePort(2,10000)
+      PulsePort(2,20000)
       'Enable power to Generic SDI-12 Sensor
       SW12(1)
       'Allow Generic SDI-12 Sensor to warmup before polling
