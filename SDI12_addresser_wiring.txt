@@ -1,0 +1,53 @@
+4/26/2021
+16:28:55
+Created by Short Cut (4.4) (edited manually)
+Short Cut Program:  SDI12_addresser.DEF
+
+-Wiring for CR800 Series-
+
+  AM16/32 (2x32 mode) (1)
+    G:  G or GND
+    G:  COM Ground
+    SW-12:  COM ODD L
+    12V:  12V
+    C1:	 ODD H
+    C2:	 CLK
+    C3:  RES
+
+  AM16/32 (2x32 mode) (2)
+    G:  G or GND
+    G:  COM Ground
+    SW-12:  COM ODD L
+    12V:  12V
+    C1:	 ODD H
+    C2:  CLK
+    C4:	 RES
+
+-Wiring for AM16/32 (2x32 mode) (1)-
+
+  SDI-12 (1)
+    1H:  Data Line
+    1L:  Power    
+    BGround:  Ground
+
+  SDI-12 (2)
+    2H:  Data Line
+    2L:  Power
+    BGround:  Ground
+    
+  SDI-12 (3)...
+
+-Wiring for AM16/32 (2x32 mode) (2)-
+
+  SDI-12 (1)
+    1H:  Data Line
+    1L:  Power    
+    BGround:  Ground
+
+  SDI-12 (2)
+    2H:  Data Line
+    2L:  Power
+    BGround:  Ground
+    
+  SDI-12 (3)...
+
