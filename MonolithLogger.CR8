@@ -383,6 +383,7 @@ BeginProg
       SW12(1)
       'Allow Generic SDI-12 Sensor to warmup before polling
       Delay(0,1000,mSec)
+      'Take measurements from SDI12 sensors with addresses from 1 to 5
       For ForLoopCount=1 To 5
         SDI12Recorder(SDI12(SDI12SensorCount,1),1,ForLoopCount,"M!",1.0,0)
         SDI12SensorCount=SDI12SensorCount+1
